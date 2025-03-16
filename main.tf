@@ -11,12 +11,21 @@ provider "docker" {
   host = "unix:///var/run/docker.sock"
 }
 
-# --- Nginx Web Server ---
+# ----------------------------
+# Create a custom Docker network
+# ----------------------------
+resource "docker_network" "flask_network" {
+  name = "flask_network"
+}
+
+# ----------------------------
+# Nginx Image & Container
+# ----------------------------
 resource "docker_image" "nginx" {
   name = "nginx:latest"
 }
 
-resource "docker_container" "nginx_server" {
+resource "docker_container" "nginx" {
   name  = "nginx-server"
   image = docker_image.nginx.name
 
@@ -26,9 +35,15 @@ resource "docker_container" "nginx_server" {
   }
 
   restart = "always"
+
+  networks_advanced {
+    name = docker_network.flask_network.name
+  }
 }
 
-# --- PostgreSQL Database ---
+# ----------------------------
+# PostgreSQL Database
+# ----------------------------
 resource "docker_image" "postgres" {
   name = "postgres:latest"
 }
@@ -41,33 +56,39 @@ resource "docker_container" "postgres_db" {
   name  = "postgres-db"
   image = docker_image.postgres.name
 
+  env = [
+    "POSTGRES_DB=flaskdb",
+    "POSTGRES_USER=flaskuser",
+    "POSTGRES_PASSWORD=flaskpass"
+  ]
+
   ports {
     internal = 5432
     external = 5432
   }
 
+  restart = "always"
+
   volumes {
-    container_path = "/var/lib/postgresql/data"
     volume_name    = docker_volume.postgres_data.name
+    container_path = "/var/lib/postgresql/data"
   }
 
-  env = [
-    "POSTGRES_USER=flaskuser",
-    "POSTGRES_PASSWORD=flaskpass",
-    "POSTGRES_DB=flaskdb"
-  ]
-
-  restart = "always"
+  networks_advanced {
+    name = docker_network.flask_network.name
+  }
 }
 
-# --- Flask Backend ---
+# ----------------------------
+# Flask Backend
+# ----------------------------
 resource "docker_image" "flask_app" {
   name = "python:3.9-slim"
 }
 
 resource "docker_container" "flask_backend" {
   name  = "flask-backend"
-  image = docker_image.flask_app.name
+  image = "python:3.9-slim"
 
   ports {
     internal = 5000
@@ -76,35 +97,33 @@ resource "docker_container" "flask_backend" {
 
   restart = "always"
 
-  env = [
-    "DATABASE_URL=postgresql://flaskuser:flaskpass@postgres-db:5432/flaskdb"
-  ]
-
-  depends_on = [docker_container.postgres_db]
+  networks_advanced {
+    name = docker_network.flask_network.name
+  }
 
   command = [
-    "sh", "-c",
+    "sh",
+    "-c",
     <<-EOF
-    pip install flask psycopg2-binary &&
-    echo 'from flask import Flask, request, jsonify
+      pip install flask psycopg2-binary &&
+      echo '
+from flask import Flask
 import psycopg2
+
 app = Flask(__name__)
+
+# Connect to PostgreSQL
 conn = psycopg2.connect("dbname=flaskdb user=flaskuser password=flaskpass host=postgres-db")
-cursor = conn.cursor()
-cursor.execute("CREATE TABLE IF NOT EXISTS messages (id SERIAL PRIMARY KEY, content TEXT)")
-conn.commit()
-@app.route("/", methods=["GET"])
+
+@app.route("/")
 def home():
-    return "Flask is connected to PostgreSQL!"
-@app.route("/add", methods=["POST"])
-def add():
-    data = request.get_json()
-    cursor.execute("INSERT INTO messages (content) VALUES (%s) RETURNING id", (data["content"],))
-    conn.commit()
-    return jsonify({"message": "Inserted", "id": cursor.fetchone()[0]})
+    return "Connected to Database!"
+
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000)' > app.py &&
-    python3 app.py
+    app.run(host="0.0.0.0", port=5000)
+      ' > app.py &&
+      python3 app.py
     EOF
   ]
 }
+
