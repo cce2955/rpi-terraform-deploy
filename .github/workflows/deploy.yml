@@ -1,0 +1,22 @@
+name: Deploy Terraform & Docker
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: self-hosted
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Terraform
+        run: |
+          terraform init
+          terraform apply -auto-approve
+
+      - name: Verify Deployment
+        run: docker ps
