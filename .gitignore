@@ -13,3 +13,8 @@ actions-runner/
 *.bin
 .terraform/
 terraform.tfstate*
+actions-runner/
+*.tar.gz
+*.bin
+.terraform/
+terraform.tfstate*
