@@ -12,7 +12,7 @@ provider "docker" {
 }
 
 # ----------------------------
-# Create a custom Docker network
+# Create a Custom Docker Network
 # ----------------------------
 resource "docker_network" "flask_network" {
   name = "flask_network"
@@ -42,19 +42,17 @@ resource "docker_container" "nginx" {
 }
 
 # ----------------------------
-# PostgreSQL Database
+# PostgreSQL Database (Persistent Data)
 # ----------------------------
 resource "docker_image" "postgres" {
   name = "postgres:latest"
 }
 
-resource "docker_volume" "postgres_data" {
-  name = "postgres_data"
-}
-
 resource "docker_container" "postgres_db" {
   name  = "postgres-db"
   image = docker_image.postgres.name
+
+  restart = "always"
 
   env = [
     "POSTGRES_DB=flaskdb",
@@ -67,11 +65,11 @@ resource "docker_container" "postgres_db" {
     external = 5432
   }
 
-  restart = "always"
-
-  volumes {
-    volume_name    = docker_volume.postgres_data.name
-    container_path = "/var/lib/postgresql/data"
+  # Bind mount for persistent data
+  mounts {
+    type   = "bind"
+    source = "/home/pi/postgres_data"
+    target = "/var/lib/postgresql/data"
   }
 
   networks_advanced {
@@ -80,7 +78,7 @@ resource "docker_container" "postgres_db" {
 }
 
 # ----------------------------
-# Flask Backend
+# Flask Backend (Python + PostgreSQL)
 # ----------------------------
 resource "docker_image" "flask_app" {
   name = "python:3.9-slim"
@@ -88,7 +86,7 @@ resource "docker_image" "flask_app" {
 
 resource "docker_container" "flask_backend" {
   name  = "flask-backend"
-  image = "python:3.9-slim"
+  image = docker_image.flask_app.name
 
   ports {
     internal = 5000
@@ -113,11 +111,15 @@ import psycopg2
 app = Flask(__name__)
 
 # Connect to PostgreSQL
-conn = psycopg2.connect("dbname=flaskdb user=flaskuser password=flaskpass host=postgres-db")
+try:
+    conn = psycopg2.connect("dbname=flaskdb user=flaskuser password=flaskpass host=postgres-db")
+    db_status = "Connected to Database!"
+except:
+    db_status = "Failed to connect to Database!"
 
 @app.route("/")
 def home():
-    return "Connected to Database!"
+    return db_status
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
@@ -126,4 +128,3 @@ if __name__ == "__main__":
     EOF
   ]
 }
-
