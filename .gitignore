@@ -8,3 +8,8 @@ actions-runner/
 actions-runner/actions-runner-linux-*.tar.gz
 
 actions-runner/actions-runner/_work/
+actions-runner/
+*.tar.gz
+*.bin
+.terraform/
+terraform.tfstate*
