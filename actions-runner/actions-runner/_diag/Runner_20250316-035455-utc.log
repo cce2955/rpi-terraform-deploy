@@ -1,0 +1,837 @@
+[2025-03-16 03:54:55Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2025-03-16 03:54:55Z INFO HostContext] Well known directory 'Bin': '/home/cce29555/actions-runner/actions-runner/bin'
+[2025-03-16 03:54:55Z INFO HostContext] Well known directory 'Root': '/home/cce29555/actions-runner/actions-runner'
+[2025-03-16 03:54:55Z INFO HostContext] Well known config file 'Credentials': '/home/cce29555/actions-runner/actions-runner/.credentials'
+[2025-03-16 03:54:55Z INFO HostContext] Well known directory 'Bin': '/home/cce29555/actions-runner/actions-runner/bin'
+[2025-03-16 03:54:55Z INFO HostContext] Well known directory 'Root': '/home/cce29555/actions-runner/actions-runner'
+[2025-03-16 03:54:55Z INFO HostContext] Well known config file 'Runner': '/home/cce29555/actions-runner/actions-runner/.runner'
+[2025-03-16 03:54:55Z INFO Listener] Runner is built for Linux (Arm64) - linux-arm64.
+[2025-03-16 03:54:55Z INFO Listener] RuntimeInformation: Linux 6.6.51+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.6.51-1+rpt3 (2024-10-08).
+[2025-03-16 03:54:55Z INFO Listener] Version: 2.320.1
+[2025-03-16 03:54:55Z INFO Listener] Commit: 8f4aa897bdc1d97e101bb42ea776a62cd31ef5b3
+[2025-03-16 03:54:55Z INFO Listener] Culture: en-GB
+[2025-03-16 03:54:55Z INFO Listener] UI Culture: en-GB
+[2025-03-16 03:54:55Z INFO HostContext] Well known directory 'Bin': '/home/cce29555/actions-runner/actions-runner/bin'
+[2025-03-16 03:54:55Z INFO HostContext] Well known directory 'Root': '/home/cce29555/actions-runner/actions-runner'
+[2025-03-16 03:54:55Z INFO Listener] Validating directory permissions for: '/home/cce29555/actions-runner/actions-runner'
+[2025-03-16 03:54:55Z INFO CommandLineParser] Parse
+[2025-03-16 03:54:55Z INFO CommandLineParser] Parsing 1 args
+[2025-03-16 03:54:55Z INFO CommandLineParser] parsing argument
+[2025-03-16 03:54:55Z INFO CommandLineParser] HasArgs: False
+[2025-03-16 03:54:55Z INFO CommandLineParser] Adding Command: run
+[2025-03-16 03:54:55Z INFO Listener] Arguments parsed
+[2025-03-16 03:54:55Z INFO Runner] ExecuteCommand
+[2025-03-16 03:54:55Z INFO ConfigurationStore] currentAssemblyLocation: /home/cce29555/actions-runner/actions-runner/bin/Runner.Listener.dll
+[2025-03-16 03:54:55Z INFO HostContext] Well known directory 'Bin': '/home/cce29555/actions-runner/actions-runner/bin'
+[2025-03-16 03:54:55Z INFO ConfigurationStore] binPath: /home/cce29555/actions-runner/actions-runner/bin
+[2025-03-16 03:54:55Z INFO HostContext] Well known directory 'Bin': '/home/cce29555/actions-runner/actions-runner/bin'
+[2025-03-16 03:54:55Z INFO HostContext] Well known directory 'Root': '/home/cce29555/actions-runner/actions-runner'
+[2025-03-16 03:54:55Z INFO ConfigurationStore] RootFolder: /home/cce29555/actions-runner/actions-runner
+[2025-03-16 03:54:55Z INFO HostContext] Well known directory 'Bin': '/home/cce29555/actions-runner/actions-runner/bin'
+[2025-03-16 03:54:55Z INFO HostContext] Well known directory 'Root': '/home/cce29555/actions-runner/actions-runner'
+[2025-03-16 03:54:55Z INFO HostContext] Well known config file 'Runner': '/home/cce29555/actions-runner/actions-runner/.runner'
+[2025-03-16 03:54:55Z INFO ConfigurationStore] ConfigFilePath: /home/cce29555/actions-runner/actions-runner/.runner
+[2025-03-16 03:54:55Z INFO HostContext] Well known directory 'Bin': '/home/cce29555/actions-runner/actions-runner/bin'
+[2025-03-16 03:54:55Z INFO HostContext] Well known directory 'Root': '/home/cce29555/actions-runner/actions-runner'
+[2025-03-16 03:54:55Z INFO HostContext] Well known config file 'Credentials': '/home/cce29555/actions-runner/actions-runner/.credentials'
+[2025-03-16 03:54:55Z INFO ConfigurationStore] CredFilePath: /home/cce29555/actions-runner/actions-runner/.credentials
+[2025-03-16 03:54:55Z INFO HostContext] Well known directory 'Bin': '/home/cce29555/actions-runner/actions-runner/bin'
+[2025-03-16 03:54:55Z INFO HostContext] Well known directory 'Root': '/home/cce29555/actions-runner/actions-runner'
+[2025-03-16 03:54:55Z INFO HostContext] Well known config file 'MigratedCredentials': '/home/cce29555/actions-runner/actions-runner/.credentials_migrated'
+[2025-03-16 03:54:55Z INFO ConfigurationStore] MigratedCredFilePath: /home/cce29555/actions-runner/actions-runner/.credentials_migrated
+[2025-03-16 03:54:55Z INFO HostContext] Well known directory 'Bin': '/home/cce29555/actions-runner/actions-runner/bin'
+[2025-03-16 03:54:55Z INFO HostContext] Well known directory 'Root': '/home/cce29555/actions-runner/actions-runner'
+[2025-03-16 03:54:55Z INFO HostContext] Well known config file 'Service': '/home/cce29555/actions-runner/actions-runner/.service'
+[2025-03-16 03:54:55Z INFO ConfigurationStore] ServiceConfigFilePath: /home/cce29555/actions-runner/actions-runner/.service
+[2025-03-16 03:54:55Z INFO CommandSettings] Flag 'help': 'False'
+[2025-03-16 03:54:55Z INFO CommandSettings] Flag 'version': 'False'
+[2025-03-16 03:54:55Z INFO CommandSettings] Flag 'commit': 'False'
+[2025-03-16 03:54:55Z INFO CommandSettings] Flag 'check': 'False'
+[2025-03-16 03:54:55Z INFO CommandSettings] Command 'configure': 'False'
+[2025-03-16 03:54:55Z INFO CommandSettings] Command 'remove': 'False'
+[2025-03-16 03:54:55Z INFO CommandSettings] Command 'warmup': 'False'
+[2025-03-16 03:54:55Z INFO ConfigurationManager] LoadSettings
+[2025-03-16 03:54:55Z INFO ConfigurationStore] IsConfigured()
+[2025-03-16 03:54:55Z INFO ConfigurationStore] IsConfigured: True
+[2025-03-16 03:54:55Z INFO ConfigurationManager] Is configured: True
+[2025-03-16 03:54:55Z INFO ConfigurationStore] Read setting file: 306 chars
+[2025-03-16 03:54:55Z INFO ConfigurationManager] Settings Loaded
+[2025-03-16 03:54:55Z INFO ConfigurationStore] IsServiceConfigured()
+[2025-03-16 03:54:55Z INFO ConfigurationStore] IsServiceConfigured: False
+[2025-03-16 03:54:55Z INFO CommandSettings] Command 'run': 'True'
+[2025-03-16 03:54:55Z INFO ConfigurationStore] IsConfigured()
+[2025-03-16 03:54:55Z INFO ConfigurationStore] IsConfigured: True
+[2025-03-16 03:54:55Z INFO ConfigurationManager] Is configured: True
+[2025-03-16 03:54:55Z INFO Runner] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2025-03-16 03:54:55Z INFO Runner] Set runner startup type - Manual
+[2025-03-16 03:54:55Z INFO CommandSettings] Flag 'once': 'False'
+[2025-03-16 03:54:55Z INFO CommandSettings] Flag 'once': 'False'
+[2025-03-16 03:54:55Z INFO Runner] RunAsync
+[2025-03-16 03:54:55Z INFO ConfigurationManager] LoadSettings
+[2025-03-16 03:54:55Z INFO ConfigurationStore] IsConfigured()
+[2025-03-16 03:54:55Z INFO ConfigurationStore] IsConfigured: True
+[2025-03-16 03:54:55Z INFO ConfigurationManager] Is configured: True
+[2025-03-16 03:54:55Z INFO ConfigurationManager] Settings Loaded
+[2025-03-16 03:54:55Z INFO MessageListener] {
+  "AgentId": 2,
+  "AgentName": "raspberrypi",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelinesghubeus11.actions.githubusercontent.com/OVdFnfIwP5MicQp7kwLnloDDpr81JI5T9fNO8fwnAgAFqW3pUY/",
+  "GitHubUrl": "https://github.com/cce2955/rpi-terraform-deploy",
+  "WorkFolder": "_work"
+}
+[2025-03-16 03:54:55Z INFO MessageListener] Loading Credentials
+[2025-03-16 03:54:55Z INFO ConfigurationStore] HasCredentials()
+[2025-03-16 03:54:55Z INFO ConfigurationStore] stored True
+[2025-03-16 03:54:55Z INFO CredentialManager] GetCredentialProvider
+[2025-03-16 03:54:55Z INFO CredentialManager] Creating type OAuth
+[2025-03-16 03:54:55Z INFO CredentialManager] Creating credential type: OAuth
+[2025-03-16 03:54:55Z INFO HostContext] Well known directory 'Bin': '/home/cce29555/actions-runner/actions-runner/bin'
+[2025-03-16 03:54:55Z INFO HostContext] Well known directory 'Root': '/home/cce29555/actions-runner/actions-runner'
+[2025-03-16 03:54:55Z INFO HostContext] Well known config file 'RSACredentials': '/home/cce29555/actions-runner/actions-runner/.credentials_rsaparams'
+[2025-03-16 03:54:55Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/cce29555/actions-runner/actions-runner/.credentials_rsaparams
+[2025-03-16 03:54:56Z INFO MessageListener] Attempt to create session.
+[2025-03-16 03:54:56Z INFO MessageListener] Connecting to the Runner Server...
+[2025-03-16 03:54:56Z INFO RunnerServer] EstablishVssConnection
+[2025-03-16 03:54:56Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2025-03-16 03:54:56Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-03-16 03:54:56Z INFO RunnerServer] EstablishVssConnection
+[2025-03-16 03:54:56Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2025-03-16 03:54:56Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-03-16 03:54:56Z INFO RunnerServer] EstablishVssConnection
+[2025-03-16 03:54:56Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2025-03-16 03:54:56Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-03-16 03:54:57Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-03-16 03:54:58Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-03-16 03:54:58Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-03-16 03:54:59Z INFO MessageListener] VssConnection created
+[2025-03-16 03:54:59Z INFO Terminal] WRITE LINE: 
+[2025-03-16 03:54:59Z INFO Terminal] WRITE LINE: 
+[2025-03-16 03:54:59Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/cce29555/actions-runner/actions-runner/.credentials_rsaparams
+[2025-03-16 03:54:59Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/cce29555/actions-runner/actions-runner/.credentials_rsaparams
+[2025-03-16 03:54:59Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-03-16 03:55:00Z INFO MessageListener] Session created.
+[2025-03-16 03:55:00Z INFO Terminal] WRITE LINE: Current runner version: '2.320.1'
+[2025-03-16 03:55:00Z INFO Terminal] WRITE LINE: 2025-03-16 03:55:00Z: Listening for Jobs
+[2025-03-16 03:55:00Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2025-03-16 03:55:00Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:00Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/cce29555/actions-runner/actions-runner/.credentials_rsaparams
+[2025-03-16 03:55:00Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-03-16 03:55:01Z INFO MessageListener] Message '0' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:01Z INFO Runner] Refresh message received, kick-off selfupdate background process.
+[2025-03-16 03:55:01Z INFO SelfUpdater] Version '2.322.0' of 'agent' package available in server.
+[2025-03-16 03:55:01Z INFO SelfUpdater] Current running runner version is 2.320.1
+[2025-03-16 03:55:01Z INFO SelfUpdater] An update is available.
+[2025-03-16 03:55:01Z INFO Terminal] WRITE LINE: Runner update in progress, do not shutdown runner.
+[2025-03-16 03:55:01Z INFO SelfUpdater] RunnerPlatform: linux-arm64
+[2025-03-16 03:55:01Z INFO Terminal] WRITE LINE: Downloading 2.322.0 runner
+[2025-03-16 03:55:01Z INFO HostContext] Well known directory 'Bin': '/home/cce29555/actions-runner/actions-runner/bin'
+[2025-03-16 03:55:01Z INFO HostContext] Well known directory 'Root': '/home/cce29555/actions-runner/actions-runner'
+[2025-03-16 03:55:01Z INFO HostContext] Well known directory 'Work': '/home/cce29555/actions-runner/actions-runner/_work'
+[2025-03-16 03:55:01Z INFO SelfUpdater] Attempt 1: save latest runner into /home/cce29555/actions-runner/actions-runner/_work/_update/runner1.tar.gz.
+[2025-03-16 03:55:01Z INFO SelfUpdater] Download runner: begin download
+[2025-03-16 03:55:01Z INFO SelfUpdater] Downloading https://github.com/actions/runner/releases/download/v2.322.0/actions-runner-linux-arm64-2.322.0.tar.gz
+[2025-03-16 03:55:02Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:03Z INFO MessageListener] Message '761792348203369322' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:03Z INFO Runner] Skip message deletion for job request message '761792348203369322'.
+[2025-03-16 03:55:03Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:03Z INFO MessageListener] Message '1086959674272887327' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:03Z INFO Runner] Skip message deletion for job request message '1086959674272887327'.
+[2025-03-16 03:55:03Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:03Z INFO MessageListener] Message '7421856003244645005' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:03Z INFO Runner] Skip message deletion for job request message '7421856003244645005'.
+[2025-03-16 03:55:04Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:04Z INFO MessageListener] Message '5720626822960612785' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:04Z INFO Runner] Skip message deletion for job request message '5720626822960612785'.
+[2025-03-16 03:55:04Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:04Z INFO MessageListener] Message '6863774045561798626' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:04Z INFO Runner] Skip message deletion for job request message '6863774045561798626'.
+[2025-03-16 03:55:04Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:04Z INFO MessageListener] Message '9093673802634074840' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:04Z INFO Runner] Skip message deletion for job request message '9093673802634074840'.
+[2025-03-16 03:55:04Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:05Z INFO MessageListener] Message '6036123777083052194' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:05Z INFO Runner] Skip message deletion for job request message '6036123777083052194'.
+[2025-03-16 03:55:05Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:05Z INFO MessageListener] Message '8273375102899954504' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:05Z INFO Runner] Skip message deletion for job request message '8273375102899954504'.
+[2025-03-16 03:55:05Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:05Z INFO MessageListener] Message '2330616713750376339' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:05Z INFO Runner] Skip message deletion for job request message '2330616713750376339'.
+[2025-03-16 03:55:05Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:06Z INFO MessageListener] Message '2479506917510895939' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:06Z INFO Runner] Skip message deletion for job request message '2479506917510895939'.
+[2025-03-16 03:55:06Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:06Z INFO MessageListener] Message '5022140678134171807' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:06Z INFO Runner] Skip message deletion for job request message '5022140678134171807'.
+[2025-03-16 03:55:06Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:06Z INFO MessageListener] Message '482356721324676020' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:06Z INFO Runner] Skip message deletion for job request message '482356721324676020'.
+[2025-03-16 03:55:06Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:06Z INFO MessageListener] Message '1125922928139028057' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:06Z INFO Runner] Skip message deletion for job request message '1125922928139028057'.
+[2025-03-16 03:55:06Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:07Z INFO MessageListener] Message '3532493526031613958' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:07Z INFO Runner] Skip message deletion for job request message '3532493526031613958'.
+[2025-03-16 03:55:07Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:07Z INFO MessageListener] Message '1111297607856411503' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:07Z INFO Runner] Skip message deletion for job request message '1111297607856411503'.
+[2025-03-16 03:55:07Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:07Z INFO MessageListener] Message '5524145649639461042' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:07Z INFO Runner] Skip message deletion for job request message '5524145649639461042'.
+[2025-03-16 03:55:07Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:07Z INFO MessageListener] Message '9101974233955533317' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:07Z INFO Runner] Skip message deletion for job request message '9101974233955533317'.
+[2025-03-16 03:55:08Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:08Z INFO MessageListener] Message '8360669660985542700' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:08Z INFO Runner] Skip message deletion for job request message '8360669660985542700'.
+[2025-03-16 03:55:08Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:08Z INFO MessageListener] Message '7175042131405031940' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:08Z INFO Runner] Skip message deletion for job request message '7175042131405031940'.
+[2025-03-16 03:55:08Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:08Z INFO MessageListener] Message '8664706428279942864' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:08Z INFO Runner] Skip message deletion for job request message '8664706428279942864'.
+[2025-03-16 03:55:08Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:09Z INFO MessageListener] Message '7338473123037450401' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:09Z INFO Runner] Skip message deletion for job request message '7338473123037450401'.
+[2025-03-16 03:55:09Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:09Z INFO MessageListener] Message '1492307157805109245' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:09Z INFO Runner] Skip message deletion for job request message '1492307157805109245'.
+[2025-03-16 03:55:09Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:09Z INFO MessageListener] Message '5230053771244812777' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:09Z INFO Runner] Skip message deletion for job request message '5230053771244812777'.
+[2025-03-16 03:55:09Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:09Z INFO MessageListener] Message '9111680688515159835' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:09Z INFO Runner] Skip message deletion for job request message '9111680688515159835'.
+[2025-03-16 03:55:10Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:10Z INFO MessageListener] Message '4273827289544278276' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:10Z INFO Runner] Skip message deletion for job request message '4273827289544278276'.
+[2025-03-16 03:55:10Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:10Z INFO MessageListener] Message '598086491145327453' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:10Z INFO Runner] Skip message deletion for job request message '598086491145327453'.
+[2025-03-16 03:55:10Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:11Z INFO MessageListener] Message '9159831226101120628' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:11Z INFO Runner] Skip message deletion for job request message '9159831226101120628'.
+[2025-03-16 03:55:11Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:11Z INFO MessageListener] Message '8510396776794540413' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:11Z INFO Runner] Skip message deletion for job request message '8510396776794540413'.
+[2025-03-16 03:55:11Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:11Z INFO MessageListener] Message '9080408288529958633' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:11Z INFO Runner] Skip message deletion for job request message '9080408288529958633'.
+[2025-03-16 03:55:11Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:12Z INFO MessageListener] Message '886227125960405832' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:12Z INFO Runner] Skip message deletion for job request message '886227125960405832'.
+[2025-03-16 03:55:12Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:12Z INFO MessageListener] Message '7300646095472367905' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:12Z INFO Runner] Skip message deletion for job request message '7300646095472367905'.
+[2025-03-16 03:55:12Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:12Z INFO MessageListener] Message '2367451239823593660' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:12Z INFO Runner] Skip message deletion for job request message '2367451239823593660'.
+[2025-03-16 03:55:12Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:12Z INFO MessageListener] Message '6865133715563977019' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:12Z INFO Runner] Skip message deletion for job request message '6865133715563977019'.
+[2025-03-16 03:55:13Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:13Z INFO MessageListener] Message '3427649386706263335' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:13Z INFO Runner] Skip message deletion for job request message '3427649386706263335'.
+[2025-03-16 03:55:13Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:13Z INFO MessageListener] Message '1628370125322863790' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:13Z INFO Runner] Skip message deletion for job request message '1628370125322863790'.
+[2025-03-16 03:55:13Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:13Z INFO MessageListener] Message '4411741226879178318' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:13Z INFO Runner] Skip message deletion for job request message '4411741226879178318'.
+[2025-03-16 03:55:13Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:14Z INFO MessageListener] Message '1119604086271622520' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:14Z INFO Runner] Skip message deletion for job request message '1119604086271622520'.
+[2025-03-16 03:55:14Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:14Z INFO MessageListener] Message '4805665105704959259' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:14Z INFO Runner] Skip message deletion for job request message '4805665105704959259'.
+[2025-03-16 03:55:14Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:14Z INFO MessageListener] Message '8727753247474730403' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:14Z INFO Runner] Skip message deletion for job request message '8727753247474730403'.
+[2025-03-16 03:55:14Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:14Z INFO MessageListener] Message '8339114140301206033' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:14Z INFO Runner] Skip message deletion for job request message '8339114140301206033'.
+[2025-03-16 03:55:14Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:15Z INFO MessageListener] Message '8634988901654005305' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:15Z INFO Runner] Skip message deletion for job request message '8634988901654005305'.
+[2025-03-16 03:55:15Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:15Z INFO MessageListener] Message '529356629322292370' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:15Z INFO Runner] Skip message deletion for job request message '529356629322292370'.
+[2025-03-16 03:55:15Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:15Z INFO MessageListener] Message '2997342992108543433' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:15Z INFO Runner] Skip message deletion for job request message '2997342992108543433'.
+[2025-03-16 03:55:15Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:16Z INFO MessageListener] Message '2459622289123671734' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:16Z INFO Runner] Skip message deletion for job request message '2459622289123671734'.
+[2025-03-16 03:55:16Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:16Z INFO MessageListener] Message '7711550814325341160' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:16Z INFO Runner] Skip message deletion for job request message '7711550814325341160'.
+[2025-03-16 03:55:16Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:16Z INFO MessageListener] Message '2316283521340110904' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:16Z INFO Runner] Skip message deletion for job request message '2316283521340110904'.
+[2025-03-16 03:55:17Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:17Z INFO MessageListener] Message '5958965639994197831' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:17Z INFO Runner] Skip message deletion for job request message '5958965639994197831'.
+[2025-03-16 03:55:17Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:17Z INFO MessageListener] Message '2651175534577298888' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:17Z INFO Runner] Skip message deletion for job request message '2651175534577298888'.
+[2025-03-16 03:55:17Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:17Z INFO MessageListener] Message '2412871099294404499' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:17Z INFO Runner] Skip message deletion for job request message '2412871099294404499'.
+[2025-03-16 03:55:17Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:18Z INFO MessageListener] Message '131977509854137720' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:18Z INFO Runner] Skip message deletion for job request message '131977509854137720'.
+[2025-03-16 03:55:18Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:18Z INFO MessageListener] Message '1888521375394528283' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:18Z INFO Runner] Skip message deletion for job request message '1888521375394528283'.
+[2025-03-16 03:55:18Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:18Z INFO MessageListener] Message '5252325345723632856' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:18Z INFO Runner] Skip message deletion for job request message '5252325345723632856'.
+[2025-03-16 03:55:18Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:18Z INFO MessageListener] Message '4010596551416950298' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:18Z INFO Runner] Skip message deletion for job request message '4010596551416950298'.
+[2025-03-16 03:55:18Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:19Z INFO MessageListener] Message '5743973890394886028' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:19Z INFO Runner] Skip message deletion for job request message '5743973890394886028'.
+[2025-03-16 03:55:19Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:19Z INFO MessageListener] Message '8287208051337385311' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:19Z INFO Runner] Skip message deletion for job request message '8287208051337385311'.
+[2025-03-16 03:55:19Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:19Z INFO SelfUpdater] Download runner: finished download
+[2025-03-16 03:55:19Z INFO MessageListener] Message '6320042908492769106' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:19Z INFO Runner] Skip message deletion for job request message '6320042908492769106'.
+[2025-03-16 03:55:19Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:20Z INFO MessageListener] Message '5038516050910490337' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:20Z INFO Runner] Skip message deletion for job request message '5038516050910490337'.
+[2025-03-16 03:55:20Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:20Z INFO MessageListener] Message '6648699092497218911' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:20Z INFO Runner] Skip message deletion for job request message '6648699092497218911'.
+[2025-03-16 03:55:20Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:20Z INFO SelfUpdater] Validated Runner Hash matches /home/cce29555/actions-runner/actions-runner/_work/_update/runner1.tar.gz : a96b0cec7b0237ca5e4210982368c6f7d8c2ab1e5f6b2604c1ccede9cedcb143
+[2025-03-16 03:55:20Z INFO SelfUpdater] Which2: 'tar'
+[2025-03-16 03:55:20Z INFO SelfUpdater] Location: '/usr/bin/tar'
+[2025-03-16 03:55:20Z INFO ProcessInvokerWrapper] Starting process:
+[2025-03-16 03:55:20Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/tar'
+[2025-03-16 03:55:20Z INFO ProcessInvokerWrapper]   Arguments: '-xzf "/home/cce29555/actions-runner/actions-runner/_work/_update/runner1.tar.gz"'
+[2025-03-16 03:55:20Z INFO ProcessInvokerWrapper]   Working directory: '/home/cce29555/actions-runner/actions-runner/_work/_update'
+[2025-03-16 03:55:20Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-03-16 03:55:20Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-03-16 03:55:20Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-03-16 03:55:20Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-03-16 03:55:20Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-03-16 03:55:20Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-03-16 03:55:20Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-03-16 03:55:20Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 28440.
+[2025-03-16 03:55:20Z INFO ProcessInvokerWrapper] Process started with process id 28440, waiting for process exit.
+[2025-03-16 03:55:20Z INFO MessageListener] Message '7583052595268556884' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:20Z INFO Runner] Skip message deletion for job request message '7583052595268556884'.
+[2025-03-16 03:55:20Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:20Z INFO MessageListener] Message '2945952599384879901' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:20Z INFO Runner] Skip message deletion for job request message '2945952599384879901'.
+[2025-03-16 03:55:21Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:21Z INFO MessageListener] Message '8714614097309414213' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:21Z INFO Runner] Skip message deletion for job request message '8714614097309414213'.
+[2025-03-16 03:55:21Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:21Z INFO MessageListener] Message '8786684551344376814' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:21Z INFO Runner] Skip message deletion for job request message '8786684551344376814'.
+[2025-03-16 03:55:21Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:21Z INFO MessageListener] Message '5675276239734760691' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:21Z INFO Runner] Skip message deletion for job request message '5675276239734760691'.
+[2025-03-16 03:55:21Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:22Z INFO MessageListener] Message '4410880738286649615' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:22Z INFO Runner] Skip message deletion for job request message '4410880738286649615'.
+[2025-03-16 03:55:22Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:22Z INFO MessageListener] Message '1892596427467434324' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:22Z INFO Runner] Skip message deletion for job request message '1892596427467434324'.
+[2025-03-16 03:55:22Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:22Z INFO MessageListener] Message '8774419099838793523' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:22Z INFO Runner] Skip message deletion for job request message '8774419099838793523'.
+[2025-03-16 03:55:22Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:22Z INFO MessageListener] Message '3835463454458124675' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:22Z INFO Runner] Skip message deletion for job request message '3835463454458124675'.
+[2025-03-16 03:55:22Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:23Z INFO MessageListener] Message '8911765889477119882' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:23Z INFO Runner] Skip message deletion for job request message '8911765889477119882'.
+[2025-03-16 03:55:23Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:23Z INFO MessageListener] Message '4353798284866207472' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:23Z INFO Runner] Skip message deletion for job request message '4353798284866207472'.
+[2025-03-16 03:55:23Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:23Z INFO MessageListener] Message '1259613567823130384' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:23Z INFO Runner] Skip message deletion for job request message '1259613567823130384'.
+[2025-03-16 03:55:23Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:23Z INFO MessageListener] Message '897214734938617000' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:23Z INFO Runner] Skip message deletion for job request message '897214734938617000'.
+[2025-03-16 03:55:23Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:24Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-03-16 03:55:24Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-03-16 03:55:24Z INFO ProcessInvokerWrapper] Finished process 28440 with exit code 0, and elapsed time 00:00:03.4731693.
+[2025-03-16 03:55:24Z INFO SelfUpdater] Finished getting latest runner package at: /home/cce29555/actions-runner/actions-runner/_work/_update.
+[2025-03-16 03:55:24Z INFO HostContext] Well known directory 'Bin': '/home/cce29555/actions-runner/actions-runner/bin'
+[2025-03-16 03:55:24Z INFO HostContext] Well known directory 'Root': '/home/cce29555/actions-runner/actions-runner'
+[2025-03-16 03:55:24Z INFO SelfUpdater] Copy /home/cce29555/actions-runner/actions-runner/_work/_update/bin to /home/cce29555/actions-runner/actions-runner/bin.2.322.0.
+[2025-03-16 03:55:24Z INFO MessageListener] Message '1103378730552988964' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:24Z INFO Runner] Skip message deletion for job request message '1103378730552988964'.
+[2025-03-16 03:55:24Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:24Z INFO MessageListener] Message '7295650705888318108' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:24Z INFO Runner] Skip message deletion for job request message '7295650705888318108'.
+[2025-03-16 03:55:24Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:24Z INFO MessageListener] Message '6586067367394950872' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:24Z INFO Runner] Skip message deletion for job request message '6586067367394950872'.
+[2025-03-16 03:55:24Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:24Z INFO MessageListener] Message '4898527046749797976' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:24Z INFO Runner] Skip message deletion for job request message '4898527046749797976'.
+[2025-03-16 03:55:25Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:25Z INFO MessageListener] Message '317701547484341641' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:25Z INFO Runner] Skip message deletion for job request message '317701547484341641'.
+[2025-03-16 03:55:25Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:25Z INFO MessageListener] Message '3137628708378037144' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:25Z INFO Runner] Skip message deletion for job request message '3137628708378037144'.
+[2025-03-16 03:55:25Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:25Z INFO MessageListener] Message '2402488995404195061' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:25Z INFO Runner] Skip message deletion for job request message '2402488995404195061'.
+[2025-03-16 03:55:25Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:26Z INFO MessageListener] Message '3150460945567171938' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:26Z INFO Runner] Skip message deletion for job request message '3150460945567171938'.
+[2025-03-16 03:55:26Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:26Z INFO MessageListener] Message '6175428282013559262' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:26Z INFO Runner] Skip message deletion for job request message '6175428282013559262'.
+[2025-03-16 03:55:26Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:26Z INFO MessageListener] Message '446788690473804456' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:26Z INFO Runner] Skip message deletion for job request message '446788690473804456'.
+[2025-03-16 03:55:26Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:26Z INFO MessageListener] Message '8644859238174584075' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:26Z INFO Runner] Skip message deletion for job request message '8644859238174584075'.
+[2025-03-16 03:55:27Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:27Z INFO MessageListener] Message '1638010615285946125' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:27Z INFO Runner] Skip message deletion for job request message '1638010615285946125'.
+[2025-03-16 03:55:27Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:27Z INFO MessageListener] Message '8228278386753620472' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:27Z INFO Runner] Skip message deletion for job request message '8228278386753620472'.
+[2025-03-16 03:55:27Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:27Z INFO MessageListener] Message '7835126949614122941' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:27Z INFO Runner] Skip message deletion for job request message '7835126949614122941'.
+[2025-03-16 03:55:27Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:28Z INFO MessageListener] Message '2386484221937574281' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:28Z INFO Runner] Skip message deletion for job request message '2386484221937574281'.
+[2025-03-16 03:55:28Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:28Z INFO MessageListener] Message '5234723719237795144' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:28Z INFO Runner] Skip message deletion for job request message '5234723719237795144'.
+[2025-03-16 03:55:28Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:28Z INFO MessageListener] Message '1837729478861195699' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:28Z INFO Runner] Skip message deletion for job request message '1837729478861195699'.
+[2025-03-16 03:55:28Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:28Z INFO MessageListener] Message '7461008301526965277' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:28Z INFO Runner] Skip message deletion for job request message '7461008301526965277'.
+[2025-03-16 03:55:28Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:29Z INFO MessageListener] Message '7231984947576234788' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:29Z INFO Runner] Skip message deletion for job request message '7231984947576234788'.
+[2025-03-16 03:55:29Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:29Z INFO MessageListener] Message '7395442706882774448' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:29Z INFO Runner] Skip message deletion for job request message '7395442706882774448'.
+[2025-03-16 03:55:29Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:29Z INFO MessageListener] Message '6243104351912247768' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:29Z INFO Runner] Skip message deletion for job request message '6243104351912247768'.
+[2025-03-16 03:55:29Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:29Z INFO MessageListener] Message '5286348521789926304' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:29Z INFO Runner] Skip message deletion for job request message '5286348521789926304'.
+[2025-03-16 03:55:30Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:30Z INFO MessageListener] Message '4630473524003635703' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:30Z INFO Runner] Skip message deletion for job request message '4630473524003635703'.
+[2025-03-16 03:55:30Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:30Z INFO MessageListener] Message '2234231664068314489' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:30Z INFO Runner] Skip message deletion for job request message '2234231664068314489'.
+[2025-03-16 03:55:30Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:30Z INFO MessageListener] Message '1365918128063638556' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:30Z INFO Runner] Skip message deletion for job request message '1365918128063638556'.
+[2025-03-16 03:55:30Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:31Z INFO MessageListener] Message '5137084562455161858' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:31Z INFO Runner] Skip message deletion for job request message '5137084562455161858'.
+[2025-03-16 03:55:31Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:31Z INFO MessageListener] Message '588841621935704965' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:31Z INFO Runner] Skip message deletion for job request message '588841621935704965'.
+[2025-03-16 03:55:31Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:31Z INFO MessageListener] Message '1215277694577162710' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:31Z INFO Runner] Skip message deletion for job request message '1215277694577162710'.
+[2025-03-16 03:55:31Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:32Z INFO MessageListener] Message '3506529885867367834' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:32Z INFO Runner] Skip message deletion for job request message '3506529885867367834'.
+[2025-03-16 03:55:32Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:32Z INFO MessageListener] Message '6317440682423392122' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:32Z INFO Runner] Skip message deletion for job request message '6317440682423392122'.
+[2025-03-16 03:55:32Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:32Z INFO MessageListener] Message '4032793186115729033' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:32Z INFO Runner] Skip message deletion for job request message '4032793186115729033'.
+[2025-03-16 03:55:32Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:32Z INFO MessageListener] Message '3052418811233009954' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:32Z INFO Runner] Skip message deletion for job request message '3052418811233009954'.
+[2025-03-16 03:55:33Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:33Z INFO MessageListener] Message '2168877120801886059' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:33Z INFO Runner] Skip message deletion for job request message '2168877120801886059'.
+[2025-03-16 03:55:33Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:33Z INFO MessageListener] Message '4300199663769067930' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:33Z INFO Runner] Skip message deletion for job request message '4300199663769067930'.
+[2025-03-16 03:55:33Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:33Z INFO MessageListener] Message '506944245076516673' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:33Z INFO Runner] Skip message deletion for job request message '506944245076516673'.
+[2025-03-16 03:55:33Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:34Z INFO MessageListener] Message '219154131161020410' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:34Z INFO Runner] Skip message deletion for job request message '219154131161020410'.
+[2025-03-16 03:55:34Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:34Z INFO MessageListener] Message '4138823832422666373' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:34Z INFO Runner] Skip message deletion for job request message '4138823832422666373'.
+[2025-03-16 03:55:34Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:34Z INFO MessageListener] Message '2820060036371198843' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:34Z INFO Runner] Skip message deletion for job request message '2820060036371198843'.
+[2025-03-16 03:55:34Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:34Z INFO MessageListener] Message '840452866145525553' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:34Z INFO Runner] Skip message deletion for job request message '840452866145525553'.
+[2025-03-16 03:55:34Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:35Z INFO MessageListener] Message '1660673595885393996' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:35Z INFO Runner] Skip message deletion for job request message '1660673595885393996'.
+[2025-03-16 03:55:35Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:35Z INFO MessageListener] Message '1531343103236751134' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:35Z INFO Runner] Skip message deletion for job request message '1531343103236751134'.
+[2025-03-16 03:55:35Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:35Z INFO MessageListener] Message '3914782620092002966' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:35Z INFO Runner] Skip message deletion for job request message '3914782620092002966'.
+[2025-03-16 03:55:35Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:35Z INFO MessageListener] Message '378958809100300652' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:35Z INFO Runner] Skip message deletion for job request message '378958809100300652'.
+[2025-03-16 03:55:36Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:36Z INFO MessageListener] Message '1349547363706471111' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:36Z INFO Runner] Skip message deletion for job request message '1349547363706471111'.
+[2025-03-16 03:55:36Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:36Z INFO MessageListener] Message '2891537985736437023' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:36Z INFO Runner] Skip message deletion for job request message '2891537985736437023'.
+[2025-03-16 03:55:36Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:38Z INFO MessageListener] Message '6991940382374989974' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:38Z INFO Runner] Skip message deletion for job request message '6991940382374989974'.
+[2025-03-16 03:55:38Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:38Z INFO MessageListener] Message '5940994116417714357' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:38Z INFO Runner] Skip message deletion for job request message '5940994116417714357'.
+[2025-03-16 03:55:38Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:38Z INFO MessageListener] Message '5554344530133811114' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:38Z INFO Runner] Skip message deletion for job request message '5554344530133811114'.
+[2025-03-16 03:55:39Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:39Z INFO MessageListener] Message '3049535937578051306' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:39Z INFO Runner] Skip message deletion for job request message '3049535937578051306'.
+[2025-03-16 03:55:39Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:39Z INFO MessageListener] Message '5877704994370496829' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:39Z INFO Runner] Skip message deletion for job request message '5877704994370496829'.
+[2025-03-16 03:55:39Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:39Z INFO MessageListener] Message '2002691739828457393' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:39Z INFO Runner] Skip message deletion for job request message '2002691739828457393'.
+[2025-03-16 03:55:39Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:40Z INFO MessageListener] Message '2203919481023187863' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:40Z INFO Runner] Skip message deletion for job request message '2203919481023187863'.
+[2025-03-16 03:55:40Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:40Z INFO MessageListener] Message '8223883660415822205' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:40Z INFO Runner] Skip message deletion for job request message '8223883660415822205'.
+[2025-03-16 03:55:40Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:40Z INFO MessageListener] Message '8142907908964962617' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:40Z INFO Runner] Skip message deletion for job request message '8142907908964962617'.
+[2025-03-16 03:55:40Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:40Z INFO MessageListener] Message '2292300743819784262' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:40Z INFO Runner] Skip message deletion for job request message '2292300743819784262'.
+[2025-03-16 03:55:41Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:41Z INFO MessageListener] Message '8078343397939733578' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:41Z INFO Runner] Skip message deletion for job request message '8078343397939733578'.
+[2025-03-16 03:55:41Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:41Z INFO MessageListener] Message '2335956596955845146' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:41Z INFO Runner] Skip message deletion for job request message '2335956596955845146'.
+[2025-03-16 03:55:41Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:41Z INFO MessageListener] Message '961152843033758924' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:41Z INFO Runner] Skip message deletion for job request message '961152843033758924'.
+[2025-03-16 03:55:41Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:42Z INFO MessageListener] Message '4183396261454250939' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:42Z INFO Runner] Skip message deletion for job request message '4183396261454250939'.
+[2025-03-16 03:55:42Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:42Z INFO MessageListener] Message '6675071144021922770' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:42Z INFO Runner] Skip message deletion for job request message '6675071144021922770'.
+[2025-03-16 03:55:42Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:42Z INFO MessageListener] Message '1733112326807773385' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:42Z INFO Runner] Skip message deletion for job request message '1733112326807773385'.
+[2025-03-16 03:55:42Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:42Z INFO MessageListener] Message '5986331373226562106' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:42Z INFO Runner] Skip message deletion for job request message '5986331373226562106'.
+[2025-03-16 03:55:43Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:43Z INFO MessageListener] Message '8276677059218450146' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:43Z INFO Runner] Skip message deletion for job request message '8276677059218450146'.
+[2025-03-16 03:55:43Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:43Z INFO MessageListener] Message '4938246964816304757' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:43Z INFO Runner] Skip message deletion for job request message '4938246964816304757'.
+[2025-03-16 03:55:43Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:43Z INFO MessageListener] Message '6018289154068902911' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:43Z INFO Runner] Skip message deletion for job request message '6018289154068902911'.
+[2025-03-16 03:55:43Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:44Z INFO MessageListener] Message '6746157877808001549' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:44Z INFO Runner] Skip message deletion for job request message '6746157877808001549'.
+[2025-03-16 03:55:44Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:44Z INFO MessageListener] Message '8003134740102177526' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:44Z INFO Runner] Skip message deletion for job request message '8003134740102177526'.
+[2025-03-16 03:55:44Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:44Z INFO MessageListener] Message '2110316644519004434' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:44Z INFO Runner] Skip message deletion for job request message '2110316644519004434'.
+[2025-03-16 03:55:44Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:44Z INFO MessageListener] Message '6950273503383488042' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:44Z INFO Runner] Skip message deletion for job request message '6950273503383488042'.
+[2025-03-16 03:55:45Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:45Z INFO MessageListener] Message '2081677605100813621' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:45Z INFO Runner] Skip message deletion for job request message '2081677605100813621'.
+[2025-03-16 03:55:45Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:45Z INFO MessageListener] Message '4038321275543905534' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:45Z INFO Runner] Skip message deletion for job request message '4038321275543905534'.
+[2025-03-16 03:55:45Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:45Z INFO MessageListener] Message '500198491721419977' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:45Z INFO Runner] Skip message deletion for job request message '500198491721419977'.
+[2025-03-16 03:55:45Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:46Z INFO MessageListener] Message '1116134907129135405' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:46Z INFO Runner] Skip message deletion for job request message '1116134907129135405'.
+[2025-03-16 03:55:46Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:46Z INFO MessageListener] Message '2223971133398167158' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:46Z INFO Runner] Skip message deletion for job request message '2223971133398167158'.
+[2025-03-16 03:55:46Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:46Z INFO MessageListener] Message '4222177054539746024' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:46Z INFO Runner] Skip message deletion for job request message '4222177054539746024'.
+[2025-03-16 03:55:46Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:46Z INFO MessageListener] Message '5535945419152386296' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:46Z INFO Runner] Skip message deletion for job request message '5535945419152386296'.
+[2025-03-16 03:55:46Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:47Z INFO HostContext] Well known directory 'Bin': '/home/cce29555/actions-runner/actions-runner/bin'
+[2025-03-16 03:55:47Z INFO HostContext] Well known directory 'Root': '/home/cce29555/actions-runner/actions-runner'
+[2025-03-16 03:55:47Z INFO SelfUpdater] Copy /home/cce29555/actions-runner/actions-runner/_work/_update/externals to /home/cce29555/actions-runner/actions-runner/externals.2.322.0.
+[2025-03-16 03:55:47Z INFO MessageListener] Message '4955153773403407099' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:47Z INFO Runner] Skip message deletion for job request message '4955153773403407099'.
+[2025-03-16 03:55:47Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:47Z INFO MessageListener] Message '5488856357598936908' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:47Z INFO Runner] Skip message deletion for job request message '5488856357598936908'.
+[2025-03-16 03:55:47Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:47Z INFO MessageListener] Message '5816802910545695416' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:47Z INFO Runner] Skip message deletion for job request message '5816802910545695416'.
+[2025-03-16 03:55:47Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:48Z INFO MessageListener] Message '1243998125850883960' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:48Z INFO Runner] Skip message deletion for job request message '1243998125850883960'.
+[2025-03-16 03:55:48Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:48Z INFO MessageListener] Message '6422471982626377736' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:48Z INFO Runner] Skip message deletion for job request message '6422471982626377736'.
+[2025-03-16 03:55:48Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:48Z INFO MessageListener] Message '8485305237284218640' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:48Z INFO Runner] Skip message deletion for job request message '8485305237284218640'.
+[2025-03-16 03:55:48Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:48Z INFO MessageListener] Message '3149038834494323657' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:48Z INFO Runner] Skip message deletion for job request message '3149038834494323657'.
+[2025-03-16 03:55:48Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:49Z INFO MessageListener] Message '2577352504316412322' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:49Z INFO Runner] Skip message deletion for job request message '2577352504316412322'.
+[2025-03-16 03:55:49Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:49Z INFO MessageListener] Message '2457582883452057104' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:49Z INFO Runner] Skip message deletion for job request message '2457582883452057104'.
+[2025-03-16 03:55:49Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:49Z INFO MessageListener] Message '142701552748604780' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:49Z INFO Runner] Skip message deletion for job request message '142701552748604780'.
+[2025-03-16 03:55:49Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:49Z INFO MessageListener] Message '6109721631491541582' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:49Z INFO Runner] Skip message deletion for job request message '6109721631491541582'.
+[2025-03-16 03:55:50Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:50Z INFO MessageListener] Message '3674469811767437966' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:50Z INFO Runner] Skip message deletion for job request message '3674469811767437966'.
+[2025-03-16 03:55:50Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:50Z INFO MessageListener] Message '2996788774762714984' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:50Z INFO Runner] Skip message deletion for job request message '2996788774762714984'.
+[2025-03-16 03:55:50Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:50Z INFO MessageListener] Message '5761019407805238718' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:50Z INFO Runner] Skip message deletion for job request message '5761019407805238718'.
+[2025-03-16 03:55:50Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:51Z INFO MessageListener] Message '2391170560697118255' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:51Z INFO Runner] Skip message deletion for job request message '2391170560697118255'.
+[2025-03-16 03:55:51Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:51Z INFO MessageListener] Message '881441302239115504' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:51Z INFO Runner] Skip message deletion for job request message '881441302239115504'.
+[2025-03-16 03:55:51Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:51Z INFO MessageListener] Message '1177051807658695432' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:51Z INFO Runner] Skip message deletion for job request message '1177051807658695432'.
+[2025-03-16 03:55:51Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:51Z INFO MessageListener] Message '2178221811981260122' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:51Z INFO Runner] Skip message deletion for job request message '2178221811981260122'.
+[2025-03-16 03:55:51Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:52Z INFO MessageListener] Message '9212947905025079034' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:52Z INFO Runner] Skip message deletion for job request message '9212947905025079034'.
+[2025-03-16 03:55:52Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:52Z INFO MessageListener] Message '2521644810854926569' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:52Z INFO Runner] Skip message deletion for job request message '2521644810854926569'.
+[2025-03-16 03:55:53Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:53Z INFO MessageListener] Message '8902879853963232098' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:53Z INFO Runner] Skip message deletion for job request message '8902879853963232098'.
+[2025-03-16 03:55:53Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:53Z INFO MessageListener] Message '4672655976885233891' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:53Z INFO Runner] Skip message deletion for job request message '4672655976885233891'.
+[2025-03-16 03:55:53Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:53Z INFO MessageListener] Message '613151970174422621' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:53Z INFO Runner] Skip message deletion for job request message '613151970174422621'.
+[2025-03-16 03:55:53Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:54Z INFO MessageListener] Message '6987687855100874797' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:54Z INFO Runner] Skip message deletion for job request message '6987687855100874797'.
+[2025-03-16 03:55:54Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:54Z INFO MessageListener] Message '5329983503581480441' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:54Z INFO Runner] Skip message deletion for job request message '5329983503581480441'.
+[2025-03-16 03:55:54Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:54Z INFO MessageListener] Message '3390536215519285372' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:54Z INFO Runner] Skip message deletion for job request message '3390536215519285372'.
+[2025-03-16 03:55:54Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:54Z INFO MessageListener] Message '7367712524111105065' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:54Z INFO Runner] Skip message deletion for job request message '7367712524111105065'.
+[2025-03-16 03:55:54Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:55Z INFO MessageListener] Message '5478269778705608066' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:55Z INFO Runner] Skip message deletion for job request message '5478269778705608066'.
+[2025-03-16 03:55:55Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:55Z INFO MessageListener] Message '7818681341731402529' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:55Z INFO Runner] Skip message deletion for job request message '7818681341731402529'.
+[2025-03-16 03:55:55Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:55Z INFO MessageListener] Message '5234998316053142109' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:55Z INFO Runner] Skip message deletion for job request message '5234998316053142109'.
+[2025-03-16 03:55:55Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:56Z INFO MessageListener] Message '7803027698197389363' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:56Z INFO Runner] Skip message deletion for job request message '7803027698197389363'.
+[2025-03-16 03:55:56Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:56Z INFO MessageListener] Message '5558455069756074137' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:56Z INFO Runner] Skip message deletion for job request message '5558455069756074137'.
+[2025-03-16 03:55:56Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:56Z INFO MessageListener] Message '4236487154598804876' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:56Z INFO Runner] Skip message deletion for job request message '4236487154598804876'.
+[2025-03-16 03:55:56Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:57Z INFO MessageListener] Message '8376535475638018384' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:57Z INFO Runner] Skip message deletion for job request message '8376535475638018384'.
+[2025-03-16 03:55:57Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:57Z INFO MessageListener] Message '5791092752539370612' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:57Z INFO Runner] Skip message deletion for job request message '5791092752539370612'.
+[2025-03-16 03:55:57Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:57Z INFO MessageListener] Message '5481562275928360454' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:57Z INFO Runner] Skip message deletion for job request message '5481562275928360454'.
+[2025-03-16 03:55:57Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:57Z INFO MessageListener] Message '1347019049669337456' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:57Z INFO Runner] Skip message deletion for job request message '1347019049669337456'.
+[2025-03-16 03:55:58Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:58Z INFO MessageListener] Message '8124702261871244907' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:58Z INFO Runner] Skip message deletion for job request message '8124702261871244907'.
+[2025-03-16 03:55:58Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:58Z INFO MessageListener] Message '6999704153150410432' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:58Z INFO Runner] Skip message deletion for job request message '6999704153150410432'.
+[2025-03-16 03:55:58Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:58Z INFO MessageListener] Message '8491923873689600968' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:58Z INFO Runner] Skip message deletion for job request message '8491923873689600968'.
+[2025-03-16 03:55:58Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:59Z INFO MessageListener] Message '3332284370457635542' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:59Z INFO Runner] Skip message deletion for job request message '3332284370457635542'.
+[2025-03-16 03:55:59Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:59Z INFO MessageListener] Message '7852642844580677317' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:59Z INFO Runner] Skip message deletion for job request message '7852642844580677317'.
+[2025-03-16 03:55:59Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:59Z INFO MessageListener] Message '1007217581875527714' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:59Z INFO Runner] Skip message deletion for job request message '1007217581875527714'.
+[2025-03-16 03:55:59Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:55:59Z INFO MessageListener] Message '3176453705517062988' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:55:59Z INFO Runner] Skip message deletion for job request message '3176453705517062988'.
+[2025-03-16 03:56:00Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:56:00Z INFO MessageListener] Message '2264255154321375724' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:56:00Z INFO Runner] Skip message deletion for job request message '2264255154321375724'.
+[2025-03-16 03:56:00Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:56:00Z INFO MessageListener] Message '5747332738663100707' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:56:00Z INFO Runner] Skip message deletion for job request message '5747332738663100707'.
+[2025-03-16 03:56:00Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:56:00Z INFO MessageListener] Message '1154520569801184629' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:56:00Z INFO Runner] Skip message deletion for job request message '1154520569801184629'.
+[2025-03-16 03:56:00Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:56:01Z INFO MessageListener] Message '3809595810187458128' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:56:01Z INFO Runner] Skip message deletion for job request message '3809595810187458128'.
+[2025-03-16 03:56:01Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:56:01Z INFO MessageListener] Message '6460937717847387199' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:56:01Z INFO Runner] Skip message deletion for job request message '6460937717847387199'.
+[2025-03-16 03:56:01Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:56:01Z INFO MessageListener] Message '2119700430600741929' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:56:01Z INFO Runner] Skip message deletion for job request message '2119700430600741929'.
+[2025-03-16 03:56:01Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:56:01Z INFO MessageListener] Message '3808226756581313238' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:56:01Z INFO Runner] Skip message deletion for job request message '3808226756581313238'.
+[2025-03-16 03:56:02Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:56:02Z INFO MessageListener] Message '6737837720178596789' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:56:02Z INFO Runner] Skip message deletion for job request message '6737837720178596789'.
+[2025-03-16 03:56:02Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:56:02Z INFO MessageListener] Message '4061927030101852766' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:56:02Z INFO Runner] Skip message deletion for job request message '4061927030101852766'.
+[2025-03-16 03:56:02Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:56:02Z INFO MessageListener] Message '7015038803612185316' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:56:02Z INFO Runner] Skip message deletion for job request message '7015038803612185316'.
+[2025-03-16 03:56:02Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:56:03Z INFO MessageListener] Message '4330553364769073250' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:56:03Z INFO Runner] Skip message deletion for job request message '4330553364769073250'.
+[2025-03-16 03:56:03Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:56:03Z INFO MessageListener] Message '6917814345502218852' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:56:03Z INFO Runner] Skip message deletion for job request message '6917814345502218852'.
+[2025-03-16 03:56:03Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:56:03Z INFO MessageListener] Message '1769737926385460600' received from session 'ad9e7900-f4b3-4ee2-b753-957a0e5f8269'.
+[2025-03-16 03:56:03Z INFO Runner] Skip message deletion for job request message '1769737926385460600'.
+[2025-03-16 03:56:03Z INFO MessageListener] BrokerMigration message received. Polling Broker for messages...
+[2025-03-16 03:56:35Z INFO Terminal] WRITE LINE: Exiting...
+[2025-03-16 03:56:35Z INFO ConfigurationStore] IsServiceConfigured()
+[2025-03-16 03:56:35Z INFO ConfigurationStore] IsServiceConfigured: False
+[2025-03-16 03:56:35Z INFO HostContext] Runner will be shutdown for UserCancelled
+[2025-03-16 03:56:35Z WARN GitHubActionsService] GET request to https://broker.actions.githubusercontent.com/message?sessionId=ad9e7900-f4b3-4ee2-b753-957a0e5f8269&status=Online&runnerVersion=2.320.1&os=Linux&architecture=ARM64&disableUpdate=false has been cancelled.
+[2025-03-16 03:56:35Z ERR  BrokerServer] Catch exception during request
+[2025-03-16 03:56:35Z INFO Terminal] WRITE LINE: Runner update process finished.
+[2025-03-16 03:56:35Z INFO SelfUpdater] DownloadUrl: https://github.com/actions/runner/releases/download/v2.322.0/actions-runner-linux-arm64-2.322.0.tar.gz
+[2025-03-16 03:56:35Z INFO SelfUpdater] PackageDownloadTime: 18268ms
+[2025-03-16 03:56:35Z INFO SelfUpdater] Attempts: 1
+[2025-03-16 03:56:35Z INFO SelfUpdater] PackageSize: 76MB
+[2025-03-16 03:56:35Z INFO SelfUpdater] ValidateHashTime: 727ms
+[2025-03-16 03:56:35Z INFO SelfUpdater] PackageExtractTime: 3564ms
+[2025-03-16 03:56:35Z INFO SelfUpdater] System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at GitHub.Runner.Sdk.IOUtil.CopyDirectory(String source, String target, CancellationToken cancellationToken)
+   at GitHub.Runner.Sdk.IOUtil.CopyDirectory(String source, String target, CancellationToken cancellationToken)
+   at GitHub.Runner.Sdk.IOUtil.CopyDirectory(String source, String target, CancellationToken cancellationToken)
+   at GitHub.Runner.Sdk.IOUtil.CopyDirectory(String source, String target, CancellationToken cancellationToken)
+   at GitHub.Runner.Sdk.IOUtil.CopyDirectory(String source, String target, CancellationToken cancellationToken)
+   at GitHub.Runner.Sdk.IOUtil.CopyDirectory(String source, String target, CancellationToken cancellationToken)
+   at GitHub.Runner.Sdk.IOUtil.CopyDirectory(String source, String target, CancellationToken cancellationToken)
+   at GitHub.Runner.Sdk.IOUtil.CopyDirectory(String source, String target, CancellationToken cancellationToken)
+   at GitHub.Runner.Sdk.IOUtil.CopyDirectory(String source, String target, CancellationToken cancellationToken)
+   at GitHub.Runner.Sdk.IOUtil.CopyDirectory(String source, String target, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.SelfUpdater.CopyLatestRunnerToRoot(String latestRunnerDirectory, CancellationToken token)
+   at GitHub.Runner.Listener.SelfUpdater.DownloadLatestRunner(CancellationToken token, String targetVersion)
+   at GitHub.Runner.Listener.SelfUpdater.SelfUpdate(AgentRefreshMessage updateMessage, IJobDispatcher jobDispatcher, Boolean restartInteractiveRunner, CancellationToken token)
+[2025-03-16 03:56:35Z ERR  BrokerServer] System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Operation canceled.
+ ---> System.Net.Sockets.SocketException (125): Operation canceled
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Sdk.WebApi.WebApi.RawHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at Sdk.WebApi.WebApi.RawHttpClientBase.SendAsync[T](HttpRequestMessage message, Boolean readErrorBody, Object userState, CancellationToken cancellationToken)
+   at Sdk.WebApi.WebApi.RawHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Uri requestUri, HttpContent content, IEnumerable`1 queryParameters, Boolean readErrorBody, Object userState, CancellationToken cancellationToken)
+   at GitHub.Actions.RunService.WebApi.BrokerHttpClient.GetRunnerMessageAsync(Nullable`1 sessionId, String runnerVersion, Nullable`1 status, String os, String architecture, Nullable`1 disableUpdate, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.BrokerServer.<>c__DisplayClass7_0.<<GetRunnerMessageAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at GitHub.Runner.Common.RunnerService.RetryRequest[T](Func`1 func, CancellationToken cancellationToken, Int32 maxRetryAttemptsCount, Func`2 shouldRetry)
+[2025-03-16 03:56:35Z ERR  BrokerServer] #####################################################
+[2025-03-16 03:56:35Z ERR  BrokerServer] System.IO.IOException: Unable to read data from the transport connection: Operation canceled.
+ ---> System.Net.Sockets.SocketException (125): Operation canceled
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+[2025-03-16 03:56:35Z ERR  BrokerServer] #####################################################
+[2025-03-16 03:56:35Z ERR  BrokerServer] System.Net.Sockets.SocketException (125): Operation canceled
+[2025-03-16 03:56:35Z WARN BrokerServer] Back off 6.036 seconds before next retry. 4 attempt left.
+[2025-03-16 03:56:35Z INFO MessageListener] Get next message has been cancelled.
+[2025-03-16 03:56:35Z INFO JobDispatcher] Shutting down JobDispatcher. Make sure all WorkerDispatcher has finished.
+[2025-03-16 03:56:35Z INFO Runner] Deleting Runner Session...
+[2025-03-16 03:56:35Z INFO Listener] Runner execution been cancelled.

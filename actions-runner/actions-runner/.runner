@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 2,
+  "agentName": "raspberrypi",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus11.actions.githubusercontent.com/OVdFnfIwP5MicQp7kwLnloDDpr81JI5T9fNO8fwnAgAFqW3pUY/",
+  "gitHubUrl": "https://github.com/cce2955/rpi-terraform-deploy",
+  "workFolder": "_work"
+}
